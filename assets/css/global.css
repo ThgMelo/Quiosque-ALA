@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+:root{
+  --branco: #FFFFFF;
+  --cinza1: #F2F2F2;
+  --cinza2: #939393;
+
+  --azul: #1C3A85;
+  --azul2: #3397E8;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,72 @@
+@import url('/assets/css/reset.css');
+@import url('/assets/css/global.css');
+
+/* -- CABECALHO -- */
+header{
+    background-color: var(--cinza1);
+}
+
+.al-header{
+    width: 80%;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.al-header__logo{
+    display: flex;
+    align-items: center;
+}
+
+.al-header__logo--imagem{
+    height: 2.5rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    border-right: 2px solid var(--cinza2);
+}
+
+.al-header__title{
+    color: var(--azul);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.al-header__nav{
+    display: flex;
+    align-items: center;
+}
+
+.al-header__nav--item{
+    text-align: center;
+    color: var(--azul);
+    font-size: 3rem;
+    font-weight: 600;
+    height: 80px;
+    margin-left: 1rem;
+}
+
+.al-header__nav--item-texto{
+    margin-top: .9rem;
+}
+
+.al-header__nav--item .tecla{
+    font-weight: 600;
+    color: var(--azul2);
+    font-size: 1rem;
+    padding: .3rem;
+}
+
+.al-header__nav--atalho{
+    display: flex;
+    align-items: center;
+}
+
+.al-header__nav--item div .img{
+   width: 30px;
+   padding: .3rem;
+}
+
+.al-header__nav--item:hover{
+    background-color: var(--branco);
+}
