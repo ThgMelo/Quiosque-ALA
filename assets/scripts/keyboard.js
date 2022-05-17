@@ -1,9 +1,17 @@
 document.addEventListener("keydown", function(event){
     if(event.keyCode == 120){
-        alert("ABRIR SAI");
+        abrir_sai();
     }
 
     if(event.keyCode == 121){
-        alert("ABRIR ALA");
+        abrir_ala();
     }
 })
+
+function abrir_sai(){
+    alert("ABRIR SAI");
+}
+
+function abrir_ala(){
+    alert("ABRIR ALA");
+}

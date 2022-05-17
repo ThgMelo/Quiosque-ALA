@@ -70,3 +70,61 @@ header{
 .al-header__nav--item:hover{
     background-color: var(--branco);
 }
+
+/* -- SECOES -- */
+.al-secoes{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.al-secoes__principal{
+    width: calc(10% + 100px);
+    background-color: var(--azul);
+    color: var(--branco);
+    text-align: right;
+    font-size: 1rem;
+    padding-right: .5rem;
+    padding-top: 5.6px;
+    padding-bottom: 5.6px;
+}
+
+.al-secoes__img{
+    height: 30px;
+}
+
+.al-secoes__secundario{
+    color: var(--azul);
+    font-size: 1rem;
+    margin-left: .6rem;
+    font-weight: 600;
+}
+
+.al-secoes__principal:hover{
+    color: var(--cinza2);
+}
+
+.al-secoes__secundario:hover{
+    color: var(--azul2)
+}
+
+/* -- MAIN -- */
+main{
+    background: var(--cinza1);
+    height: calc(100vh - 80px - 30px - 60px);
+}
+
+/* -- FOOTER -- */
+footer{
+    background: var(--cinza4);
+    height: 60px;
+}
+
+.footer__texto{
+    font-size: .8rem;
+    color: var(--azul);
+    text-align: right;
+    margin-right: 10%;
+    padding-top: 1.3rem;
+}
