@@ -2,7 +2,7 @@
 
 .main-container__item{
     width: 20%;
-    height: 12rem;
+    height: 45%;
     justify-content: space-between;
     background: var(--cinza3);
     display: flex;
