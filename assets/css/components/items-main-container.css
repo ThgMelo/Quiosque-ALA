@@ -1,0 +1,18 @@
+@import url('/assets/css/global.css');
+
+.main-container__item{
+    width: 20%;
+    height: 12rem;
+    justify-content: space-between;
+    background: var(--cinza3);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.main-container__item--title{
+    background-color: var(--cinza5);
+    color: var(--branco);
+    padding: .5rem;
+}

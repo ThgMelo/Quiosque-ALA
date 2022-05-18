@@ -115,6 +115,20 @@ main{
     height: calc(100vh - 80px - 30px - 60px);
 }
 
+.main-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+}
+
+.main-container__item--tecla--img{
+    width: 2.5rem;
+}
+
 /* -- FOOTER -- */
 footer{
     background: var(--cinza4);
