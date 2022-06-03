@@ -142,3 +142,33 @@ footer{
     margin-right: 10%;
     padding-top: 1.3rem;
 }
+
+/*RESPONSIVIDADE*/
+
+
+@media screen and (max-width: 1024px){
+    main{
+        height: auto;
+    }
+
+    .main-container{
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .al-header{
+        align-items: center;
+        padding-top: 1rem;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .al-header__logo{
+        margin-bottom:.8rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid var(--cinza2);
+
+    }
+}

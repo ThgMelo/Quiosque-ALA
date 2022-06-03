@@ -9,6 +9,7 @@
     flex-direction: column;
     text-align: center;
     margin-left: 1rem;
+    font-weight: 600;
 }
 
 .main-container__item--title{
@@ -17,10 +18,20 @@
     padding: .5rem;
 }
 
+.main-container__item--tecla{
+    color: var(--azul);
+    font-weight: 600;
+}
+
+.main-container__item--tecla--img{
+    width: 25%;
+}
+
 .main-container__item--link{
     background-color: var(--branco);
     padding: .5rem;
     margin: 1rem auto;
+    margin-top: 0;
     width: 50%;
     color: var(--azul);
     border: 1px solid var(--azul);
@@ -31,4 +42,38 @@
 .main-container__item--link:hover{
     background-color: var(--azul);
     color: var(--branco);
+}
+
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width: 1024px){
+    .main-container__item{
+        width: 35%;
+        height: 45%;
+    }
+
+    .main-container__item{
+        margin-top: 1.5rem;
+        min-height: 15rem;
+    }
+
+    .main-container__item:last-child{
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main-container__item{
+        width: 80%;
+        height: 45%;
+    }
+
+    .main-container__item{
+        margin-top: 1.5rem;
+        min-height: 15rem;
+    }
+
+    .main-container__item:last-child{
+        margin-bottom: 1.5rem;
+    }
 }
