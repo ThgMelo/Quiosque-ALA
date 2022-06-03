@@ -16,3 +16,19 @@
     color: var(--branco);
     padding: .5rem;
 }
+
+.main-container__item--link{
+    background-color: var(--branco);
+    padding: .5rem;
+    margin: 1rem auto;
+    width: 50%;
+    color: var(--azul);
+    border: 1px solid var(--azul);
+    border-radius: .8rem;
+    transition: background 1s;
+}
+
+.main-container__item--link:hover{
+    background-color: var(--azul);
+    color: var(--branco);
+}
