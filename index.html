@@ -6,11 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/css/home-page-styles.css">
         <link rel="stylesheet" href="./assets/css/components/items-main-container.css">
+        <link rel="stylesheet" href="./assets/css/components/modal.css">
         <link rel="icon" type="image/png" href="./assets/images/favicon-32x32.png">
-        <script src="assets/scripts/keyboard.js"></script>
         <title>Alfa Laval | Quiosque</title>
     </head>
     <body>
+        
         <header>
             <div class="al-header">
                 <div class="al-header__logo">
@@ -56,7 +57,7 @@
                         <img src="./assets/images/keyboard.png" alt="" class="main-container__item--tecla--img">
                         <p class="main-container__item--tecla--text">F1</p> 
                     </div>
-                    <a href="" class="main-container__item--link">Entrar</a>
+                    <button class="main-container__item--link">Entrar</button>
                 </div>
 
                 <div class="main-container__item">
@@ -65,7 +66,7 @@
                         <img src="./assets/images/keyboard.png" alt="" class="main-container__item--tecla--img">
                         <p class="main-container__item--tecla--text">F2</p>
                     </div>
-                    <a href="" class="main-container__item--link">Entrar</a>
+                    <button class="main-container__item--link">Entrar</button>
                 </div>
                 
                 <div class="main-container__item">
@@ -74,7 +75,7 @@
                         <img src="./assets/images/keyboard.png" alt="" class="main-container__item--tecla--img">
                         <p class="main-container__item--tecla--text">F8</p>
                     </div>
-                    <a href="" class="main-container__item--link">Entrar</a>
+                    <button class="main-container__item--link">Entrar</button>
                 </div>
 
                 <div class="main-container__item">
@@ -83,7 +84,7 @@
                         <img src="./assets/images/keyboard.png" alt="" class="main-container__item--tecla--img">
                         <p class="main-container__item--tecla--text">F10</p>
                     </div>
-                    <a href="" class="main-container__item--link">Entrar</a>
+                    <button class="main-container__item--link">Entrar</button>
                 </div>
 
                 <div class="main-container__item">
@@ -92,7 +93,7 @@
                         <img src="./assets/images/keyboard.png" alt="" class="main-container__item--tecla--img">
                         <p class="main-container__item--tecla--text">F3</p>
                     </div>
-                    <a href="" class="main-container__item--link">Entrar</a>
+                    <button class="main-container__item--link">Entrar</button>
                 </div>
 
                 <div class="main-container__item">
@@ -101,7 +102,7 @@
                         <img src="./assets/images/keyboard.png" alt="" class="main-container__item--tecla--img">
                         <p class="main-container__item--tecla--text">F5</p>
                     </div>
-                    <a href="" class="main-container__item--link">Entrar</a>
+                    <button class="main-container__item--link">Entrar</button>
                 </div>
 
                 <div class="main-container__item">
@@ -110,12 +111,29 @@
                         <img src="./assets/images/keyboard.png" alt="" class="main-container__item--tecla--img">
                         <p class="main-container__item--tecla--text">F6</p>
                     </div>
-                    <a href="" class="main-container__item--link">Entrar</a>
+                    <button class="main-container__item--link">Entrar</button>
                 </div>
             </section>
+
+            <div class="modal">
+                <div class="modal__header">
+                    <h2>Apontamento</h2>
+                    <span class="fechar-modal">&#215;</span>
+                </div>
+                <div class="modal__corpo">
+                    <p>Este é o corpo do modal</p>
+                </div>
+                <div class="modal__rodape">
+                    <button class="fechar-modal">Fechar</button>
+                </div>
+            </div>
+            <div id="mascara"></div>
         </main>
         <footer>
             <p class="footer__texto">Quiosque - Produção | Alfa Laval</p>
         </footer>
+        
+        <script src="assets/scripts/keyboard.js"></script>
+        <script src="assets/scripts/modais.js"></script>
     </body>
 </html>

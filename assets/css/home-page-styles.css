@@ -138,8 +138,7 @@ footer{
 .footer__texto{
     font-size: .8rem;
     color: var(--azul);
-    text-align: right;
-    margin-right: 10%;
+    text-align: center;
     padding-top: 1.3rem;
 }
 
@@ -160,15 +159,25 @@ footer{
 @media screen and (max-width: 768px){
     .al-header{
         align-items: center;
-        padding-top: 1rem;
+        padding-top: 1.5rem;
         flex-direction: column;
         height: auto;
     }
 
     .al-header__logo{
-        margin-bottom:.8rem;
-        padding-bottom: 1.5rem;
+        padding-bottom: .8rem;
         border-bottom: 1px solid var(--cinza2);
+    }
 
+    .al-header__nav--item{
+        padding-top: .8rem;
+    }
+
+    .al-header__nav--item:first-child{
+        margin-left: 0;
+    }
+
+    .al-header__nav--item-texto{
+        margin-top: 0;
     }
 }

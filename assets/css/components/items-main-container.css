@@ -10,12 +10,14 @@
     text-align: center;
     margin-left: 1rem;
     font-weight: 600;
+    border-radius: 1rem;
 }
 
 .main-container__item--title{
     background-color: var(--cinza5);
     color: var(--branco);
     padding: .5rem;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .main-container__item--tecla{
@@ -36,7 +38,7 @@
     color: var(--azul);
     border: 1px solid var(--azul);
     border-radius: .8rem;
-    transition: background 1s;
+    transition: background .5s;
 }
 
 .main-container__item--link:hover{
