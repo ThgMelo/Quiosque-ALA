@@ -129,6 +129,10 @@ main{
     width: 2.5rem;
 }
 
+.main-container__item--link{
+    cursor: pointer;
+}
+
 /* -- FOOTER -- */
 footer{
     background: var(--cinza4);

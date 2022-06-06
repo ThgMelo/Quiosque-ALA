@@ -57,7 +57,7 @@
                         <img src="./assets/images/keyboard.png" alt="" class="main-container__item--tecla--img">
                         <p class="main-container__item--tecla--text">F1</p> 
                     </div>
-                    <button class="main-container__item--link">Entrar</button>
+                    <button data-abre-modal="#modal-apontamento1" class="main-container__item--link">Entrar</button>
                 </div>
 
                 <div class="main-container__item">
@@ -66,7 +66,7 @@
                         <img src="./assets/images/keyboard.png" alt="" class="main-container__item--tecla--img">
                         <p class="main-container__item--tecla--text">F2</p>
                     </div>
-                    <button class="main-container__item--link">Entrar</button>
+                    <button data-abre-modal="#modal-rmp" class="main-container__item--link">Entrar</button>
                 </div>
                 
                 <div class="main-container__item">
@@ -75,7 +75,7 @@
                         <img src="./assets/images/keyboard.png" alt="" class="main-container__item--tecla--img">
                         <p class="main-container__item--tecla--text">F8</p>
                     </div>
-                    <button class="main-container__item--link">Entrar</button>
+                    <button data-abre-modal="#modal-encerra-rmp" class="main-container__item--link">Entrar</button>
                 </div>
 
                 <div class="main-container__item">
@@ -84,7 +84,7 @@
                         <img src="./assets/images/keyboard.png" alt="" class="main-container__item--tecla--img">
                         <p class="main-container__item--tecla--text">F10</p>
                     </div>
-                    <button class="main-container__item--link">Entrar</button>
+                    <button data-abre-modal="#modal-sm" class="main-container__item--link">Entrar</button>
                 </div>
 
                 <div class="main-container__item">
@@ -93,7 +93,7 @@
                         <img src="./assets/images/keyboard.png" alt="" class="main-container__item--tecla--img">
                         <p class="main-container__item--tecla--text">F3</p>
                     </div>
-                    <button class="main-container__item--link">Entrar</button>
+                    <button data-abre-modal="#modal-op" class="main-container__item--link">Entrar</button>
                 </div>
 
                 <div class="main-container__item">
@@ -102,7 +102,7 @@
                         <img src="./assets/images/keyboard.png" alt="" class="main-container__item--tecla--img">
                         <p class="main-container__item--tecla--text">F5</p>
                     </div>
-                    <button class="main-container__item--link">Entrar</button>
+                    <button data-abre-modal="#modal-apontamento2" class="main-container__item--link">Entrar</button>
                 </div>
 
                 <div class="main-container__item">
@@ -111,13 +111,91 @@
                         <img src="./assets/images/keyboard.png" alt="" class="main-container__item--tecla--img">
                         <p class="main-container__item--tecla--text">F6</p>
                     </div>
-                    <button class="main-container__item--link">Entrar</button>
+                    <button data-abre-modal="#modal-ferramentas" class="main-container__item--link">Entrar</button>
                 </div>
             </section>
 
-            <div class="modal">
+            <div class="modal" id="modal-apontamento1">
                 <div class="modal__header">
                     <h2>Apontamento</h2>
+                    <span class="fechar-modal">&#215;</span>
+                </div>
+                <div class="modal__corpo">
+                    <p>Este é o corpo do modal</p>
+                </div>
+                <div class="modal__rodape">
+                    <button class="fechar-modal">Fechar</button>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-rmp">
+                <div class="modal__header">
+                    <h2>RMP</h2>
+                    <span class="fechar-modal">&#215;</span>
+                </div>
+                <div class="modal__corpo">
+                    <p>Este é o corpo do modal</p>
+                </div>
+                <div class="modal__rodape">
+                    <button class="fechar-modal">Fechar</button>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-encerra-rmp">
+                <div class="modal__header">
+                    <h2>Encerra RMP</h2>
+                    <span class="fechar-modal">&#215;</span>
+                </div>
+                <div class="modal__corpo">
+                    <p>Este é o corpo do modal</p>
+                </div>
+                <div class="modal__rodape">
+                    <button class="fechar-modal">Fechar</button>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-sm">
+                <div class="modal__header">
+                    <h2>SM</h2>
+                    <span class="fechar-modal">&#215;</span>
+                </div>
+                <div class="modal__corpo">
+                    <p>Este é o corpo do modal</p>
+                </div>
+                <div class="modal__rodape">
+                    <button class="fechar-modal">Fechar</button>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-op">
+                <div class="modal__header">
+                    <h2>OP</h2>
+                    <span class="fechar-modal">&#215;</span>
+                </div>
+                <div class="modal__corpo">
+                    <p>Este é o corpo do modal</p>
+                </div>
+                <div class="modal__rodape">
+                    <button class="fechar-modal">Fechar</button>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-apontamento2">
+                <div class="modal__header">
+                    <h2>Apontamento2</h2>
+                    <span class="fechar-modal">&#215;</span>
+                </div>
+                <div class="modal__corpo">
+                    <p>Este é o corpo do modal</p>
+                </div>
+                <div class="modal__rodape">
+                    <button class="fechar-modal">Fechar</button>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-ferramentas">
+                <div class="modal__header">
+                    <h2>Ferramentas</h2>
                     <span class="fechar-modal">&#215;</span>
                 </div>
                 <div class="modal__corpo">
