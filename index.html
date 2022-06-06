@@ -27,7 +27,7 @@
                         <p class="al-header__nav--item-texto">SAI</p>
                         <div class="al-header__nav--atalho">
                             <img class ="img" src="/assets/images/keyboard.png" alt="Ícone Teclado">
-                            <p class="tecla">F9</p>
+                            <p class="tecla">F7</p>
                         </div>
                     </a>
                     
@@ -35,7 +35,7 @@
                         <p class="al-header__nav--item-texto">ALA</p>
                         <div class="al-header__nav--atalho">
                             <img class ="img" src="/assets/images/keyboard.png" alt="Ícone Teclado">
-                            <p class="tecla">F10</p>
+                            <p class="tecla">F9</p>
                         </div>
                     </a>
                 </nav>
@@ -121,10 +121,48 @@
                     <span class="fechar-modal">&#215;</span>
                 </div>
                 <div class="modal__corpo">
-                    <p>Este é o corpo do modal</p>
+                    <form>
+                        <div>
+                            <label for="operador">Operador</label>
+                            <input type="text" id="operador" class="input-padrao" required>
+
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" class="input-padrao" disabled>
+
+                            <label for="setor">Setor</label>
+                            <input type="text" id="setor" class="input-padrao" disabled>
+                        </div>
+                        <div>
+                            <label for="numero-op">Número da OP</label>
+                            <input type="text" id="numero-op" class="input-padrao" required>
+
+                            <label for="descricao">Descrição</label>
+                            <input type="text" id="descricao" class="input-padrao" disabled>
+
+                            <label for="aplicacao">Aplicação</label>
+                            <input type="text" id="aplicacao" class="input-padrao" disabled>
+                        </div>
+                        <div>
+                            <label for="operacao">Operação</label>
+                            <input type="text" id="operacao" class="input-padrao" required>
+
+                            <label for="atividade">Atividade</label>
+                            <input type="text" id="atividade" class="input-padrao" required>
+
+                            <label for="data">Data</label>
+                            <input type="Date" id="atividade" class="input-padrao" required>
+
+                            <label for="hora1">Hora Início</label>
+                            <input step="1" type="time" id="hora1" class="input-padrao" required>
+
+                            <label for="hora2">Hora Final</label>
+                            <input step="1" type="time" id="hora2" class="input-padrao" required>
+                        </div>
+                    </form>
                 </div>
                 <div class="modal__rodape">
-                    <button class="fechar-modal">Fechar</button>
+                    <button class="enviar-modal">Lançar (Enter)</button>
+                    <button class="fechar-modal">Sair (Esc)</button>
                 </div>
             </div>
 
@@ -134,10 +172,36 @@
                     <span class="fechar-modal">&#215;</span>
                 </div>
                 <div class="modal__corpo">
-                    <p>Este é o corpo do modal</p>
+                    <form>
+                        <div>
+                            <label for="operador">Operador</label>
+                            <input type="text" id="operador" class="input-padrao" required>
+
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" class="input-padrao" disabled>
+
+                            <label for="setor">Setor</label>
+                            <input type="text" id="setor" class="input-padrao" disabled>
+                        </div>
+                        <div>
+                            <label for="numero-op">Número da OP</label>
+                            <input type="text" id="numero-op" class="input-padrao" required>
+
+                            <label for="descricao">Descrição</label>
+                            <input type="text" id="descricao" class="input-padrao" disabled>
+
+                            <label for="aplicacao">Aplicação</label>
+                            <input type="text" id="aplicacao" class="input-padrao" disabled>
+                        </div>
+                        <div>
+                            <label for="operacao">Operação</label>
+                            <input type="text" id="operacao" class="input-padrao" required>
+                        </div>
+                    </form>
                 </div>
                 <div class="modal__rodape">
-                    <button class="fechar-modal">Fechar</button>
+                    <button class="enviar-modal">Lançar (Enter)</button>
+                    <button class="fechar-modal">Sair (Esc)</button>
                 </div>
             </div>
 
@@ -147,10 +211,48 @@
                     <span class="fechar-modal">&#215;</span>
                 </div>
                 <div class="modal__corpo">
-                    <p>Este é o corpo do modal</p>
+                    <form>
+                        <div>
+                            <label for="operador">Operador</label>
+                            <input type="text" id="operador" class="input-padrao" required>
+
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" class="input-padrao" disabled>
+
+                            <label for="setor">Setor</label>
+                            <input type="text" id="setor" class="input-padrao" disabled>
+                        </div>
+                        <div>
+                            <label for="numero-op">Número da OP</label>
+                            <input type="text" id="numero-op" class="input-padrao" required>
+
+                            <label for="descricao">Descrição</label>
+                            <input type="text" id="descricao" class="input-padrao" disabled>
+
+                            <label for="aplicacao">Aplicação</label>
+                            <input type="text" id="aplicacao" class="input-padrao" disabled>
+                        </div>
+                        <div>
+                            <label for="operacao">Operação</label>
+                            <input type="text" id="operacao" class="input-padrao" required>
+
+                            <label for="atividade">Atividade</label>
+                            <input type="text" id="atividade" class="input-padrao" required>
+
+                            <label for="data">Data</label>
+                            <input type="Date" id="atividade" class="input-padrao" required>
+
+                            <label for="hora1">Hora Início</label>
+                            <input step="1" type="time" id="hora1" class="input-padrao" required>
+
+                            <label for="hora2">Hora Final</label>
+                            <input step="1" type="time" id="hora2" class="input-padrao" required>
+                        </div>
+                    </form>
                 </div>
                 <div class="modal__rodape">
-                    <button class="fechar-modal">Fechar</button>
+                    <button class="enviar-modal">Lançar (Enter)</button>
+                    <button class="fechar-modal">Sair (Esc)</button>
                 </div>
             </div>
 
@@ -163,7 +265,7 @@
                     <p>Este é o corpo do modal</p>
                 </div>
                 <div class="modal__rodape">
-                    <button class="fechar-modal">Fechar</button>
+                    <button class="fechar-modal">Sair (Esc)</button>
                 </div>
             </div>
 
@@ -176,7 +278,7 @@
                     <p>Este é o corpo do modal</p>
                 </div>
                 <div class="modal__rodape">
-                    <button class="fechar-modal">Fechar</button>
+                    <button class="fechar-modal">Sair (Esc)</button>
                 </div>
             </div>
 
@@ -189,7 +291,7 @@
                     <p>Este é o corpo do modal</p>
                 </div>
                 <div class="modal__rodape">
-                    <button class="fechar-modal">Fechar</button>
+                    <button class="fechar-modal">Sair (Esc)</button>
                 </div>
             </div>
 
@@ -202,7 +304,7 @@
                     <p>Este é o corpo do modal</p>
                 </div>
                 <div class="modal__rodape">
-                    <button class="fechar-modal">Fechar</button>
+                    <button class="fechar-modal">Sair (Esc)</button>
                 </div>
             </div>
             <div id="mascara"></div>

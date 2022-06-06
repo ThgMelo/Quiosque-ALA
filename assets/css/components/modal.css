@@ -5,8 +5,7 @@
     z-index: 10;
     box-sizing: border-box;
     width: 80%;
-    height: auto;
-    /*left: 25vw;*/
+    max-height: 80%;
     margin-left: 10%;
     margin-right: 10%;
     top: 50vh;
@@ -19,7 +18,9 @@
     opacity: 0;
     transition: all 200ms ease-out;
     pointer-events: none;
+    overflow-y: scroll;
 }
+
 
 .modal.visible{
     opacity: 1;
@@ -31,6 +32,7 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #0001;  
+    padding-bottom: .5rem;
 }
 
 .modal__header h2{
@@ -43,8 +45,17 @@ button.fechar-modal{
     cursor: pointer;
     padding: .5rem 2rem;
     color: var(--branco);
-    background-color: var(--azul);
-    border-radius: 1rem;
+    background-color: #8a0000;
+    border-radius: .5rem;
+}
+
+button.enviar-modal{
+    cursor: pointer;
+    padding: .5rem 2rem;
+    color: var(--branco);
+    background-color: #007523;
+    border-radius: .5rem;
+    margin-right: 2rem;
 }
 
 span.fechar-modal{
@@ -55,6 +66,7 @@ span.fechar-modal{
 
 .modal__corpo{
     padding: 1em 0;
+    
 }
 
 .modal__rodape{
@@ -78,4 +90,33 @@ span.fechar-modal{
 .modal.visible~#mascara{
     opacity: 0.8;
     pointer-events: initial;
+}
+
+.input-padrao{
+    padding: .5rem;
+    border: 1px solid var(--cinza2);
+    border-radius: 5px;
+}
+
+.modal__corpo form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+form div input{
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 768px){
+    form div{
+        margin-bottom: 2rem;
+    }
 }
